@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+<style>
+
+*, html {
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+	 background-color: white;
+	 font-family: sans-serif;
+}
+
+#header {
+	width: 100%;
+	line-height: 48px;
+	clear: both;
+}
+
+#title {
+	   float: left;
+}
+
+#languages {
+	float: right;
+}
+
+#navigation{
+    width: 100%;
+	line-height: 48px;
+	background-color: blue;
+	text-align: center;
+	clear: both;
+}
+
+#navigation li {
+	display: inline;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu a:hover {
+    color: #F90;
+    background-color: #FFF;
+}
+
+#osastot { 
+	display:table;	
+	text-align: left;
+}
+
+#osastot section { 
+	vertical-align:top; 
+	display:table-cell;	
+	padding: 33px;
+}
+
+#osastot section a {
+	display: inline;
+	text-decoration: none;
+	color: blue;
+}
+
+strong {
+color: screen;
+}
+
+
+</style>
+</head>  
+<body id="ruho">
+
+<header id="header">
+	<span id="title">
+		<h1>Recycling Front</h1>
+	</span>
+	<span id="languages">
+		<form action="/en/" method="GET">
+         	<label>SITE LANGUAGE</label>
+         	<select name="tourl">         
+         	<option value="/english/">English</option>
+         	<option value="/suomi/">Suomi</option>
+         	<option value="/svenska/">Svenska</option>         
+         	</select>
+         	
+    	</form>
+	</span>
+</header>
+
+<nav id="navigation">
+	<ul>
+	<li><a href="home.htm">HOME</a></li>
+	<li><a href="#">ESPOO</a></li>
+	<li><a href="#">HELSINKI </a></li>			
+	<li><a href="#">KAJAANI </a></li>		
+	<li><a href="#">KEMI</a></li>
+	<li><a href="#">KOTKA </a></li>		
+	<li><a href="#">KUOPIO</a></li>
+	<li><a href="#">LAHTI</a></li>		
+	<li><a href="#">MIKKELI</a></li>
+	<li><a href="#">OULU </a></li>		
+	<li><a href="#">PORI</a></li>
+	<li><a href="#">RAAHE</a></li>
+	</ul>
+</nav>
+
+<section id="osastot">
+<section>
+	<h2>Private section</h2>
+<br/>
+	<hr/>
+	<ul>
+	<li><a href="#" onclick="window.open('email.htm', 'newwindow', 'width=400, height=200'); return false;"><strong>send email...</strong></a>Pateniemi...Boys Bauer skates, size 39.</li>
+	<li><a href="#" onclick="window.open('call.htm', 'newwindow', 'width=400, height=200'); return false;"><strong>call...</strong></a>Valivainio...Black mens back, good leather.</li>
+	</ul>	
+</section>
+
+<section>
+	<h2>Virtual Recycling Center</h2>
+	<p>Contact:</p>
+	<br/>	
+	<p><a href="catalog.htm" target="_blank">Catalog</a></p>
+	<br/>
+	<hr/>
+	<ul>
+	<li>Service starts on week 17.</li>
+	</ul>	
+</section>
+
+<section>
+	<h2>Oulun kierratyskeskus</h2>
+	<p>Address:</p>
+	<br/>	
+	<p><a href="catalog.htm" target="_blank">What is new catalog</a></p>
+	<br/>
+	<hr/>
+	<ul>
+	<li>Wood tables wanted, call us for free transportation.</li>
+	<li>Discount for beds on this week.</li>
+	</ul>
+</section>
+
+<section>
+	<h2>Pohjolan Vaihtokaluste</h2>
+	<p>Address:</p>
+	<br/>
+	<p><a href="http://www.pohojolanvaihtokaluste.fi/" target="_blank">Web Site</a></p>
+	<p><a href="catalog.htm" target="_blank">What is new catalog</a></p>
+	<br/>
+	<hr/>
+	<ul>
+	<li>New leather soffas arrived.</li>
+	</ul>
+
+	
+</section>
+</section>
+
+</body>
+</html>
